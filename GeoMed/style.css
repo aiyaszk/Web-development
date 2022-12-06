@@ -1,0 +1,155 @@
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.active {
+  color: #EEE;
+  text-decoration: none;
+}
+
+.notactive {
+  color: #EEE;
+  text-decoration: none;
+}
+a:hover {
+  color: #050c52;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 200px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 {
+  background-image: url("https://institute.global/sites/default/files/styles/hero/public/2021-02/Vaccine%20wastage.jpg?itok=-SadCNYi"); }
+
+.img2 {
+  background-image: url("https://www.un.org/africarenewal/sites/www.un.org.africarenewal/files/00177743a.jpg"); }
+
+.img3 {
+  background-image: url("https://launchandscalefaster.org/sites/default/files/2021-08/08.12.21%20waste.jpeg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border: 10px solid #f1f1f1; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 730px;
+  margin-top: -300px;
+}
+
+h2 {
+  margin-left: 650px;
+  margin-top: 150px;
+}
+
+p {
+  width: 500px;
+  margin-left: 470px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+hr {
+  margin-top: 30px;
+  width: 800px;
+}
+
+.partners {
+  margin-left: 670px;
+  margin-top: 30px;
+}
+
+#banner {
+  background-image: image("GeoMed.png");
+  background-size: cover;
+  background-position: bottom center;
+  height: 500px;
+  width: 500px;
+  border: 3px solid lightblue;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.homep {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin-left: 350px;
+  border: 2px dotted blue;
+  padding: 10px;
+  padding-bottom: 150px;
+  margin-left: 650px;
+}
+
+.img {
+  margin-left: 570px;
+}
+
+.a {
+  margin-left: 170px;
+}
+.who {
+  margin-top: 50px;
+  margin-left:680px;
+}
+.contact1 {
+  width: 60px;
+  height: 60px;
+}
+.usaid {
+  margin-left:680px;
+}
